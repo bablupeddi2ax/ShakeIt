@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Shakeit</string>
+    <string name="enter_mobile">Enter mobile</string>
+    <string name="enter_otp_here">Enter OTP here</string>
+    <string name="verify_and_signin">Verify and signin</string>
+    <string name="logout">Logout</string>
+    <string name="get_otp">GET OTP</string>
+    <string name="meaning_and_use_case">Meaning and use case</string>
+    <string name="word">Word</string>
+    <string name="meaning">Meaning</string>
+</resources>
