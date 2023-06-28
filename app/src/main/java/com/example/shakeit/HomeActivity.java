@@ -69,7 +69,7 @@ public class HomeActivity extends AppCompatActivity implements ShakeDetector.OnS
         // Handle shake event
         animateContainer();
         //play audio
-        m.start();
+       m.start();
        // fetchData();
         mAuth = FirebaseAuth.getInstance();
         mref = FirebaseDatabase.getInstance().getReference();
@@ -92,7 +92,8 @@ public class HomeActivity extends AppCompatActivity implements ShakeDetector.OnS
       currWOrd = randGenWord   ;
         mWordTextView.setTextSize(36);
         mWordTextView.setTextColor(Color.rgb(255,105,180));
-        moveTaskToBack(true);
+        //cause the app top move to background do not uncomment
+        //moveTaskToBack(true);
 
     }
     private void animateContainer() {
